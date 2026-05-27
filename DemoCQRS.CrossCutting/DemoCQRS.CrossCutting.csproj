@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoCQRS.Application\DemoCQRS.Application.csproj" />
+    <ProjectReference Include="..\DemoCQRS.Domain\DemoCQRS.Domain.csproj" />
+    <ProjectReference Include="..\DemoCQRS.Infrastructure\DemoCQRS.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
